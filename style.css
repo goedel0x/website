@@ -1,0 +1,117 @@
+/**
+ * The designer is steve
+ */
+
+ body {
+    line-height: 30px; 
+    color: dimgrey; 
+    font-family: Arial, sans-serif, inherit;
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+    
+}
+
+a {
+    color: #00a1ff;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+      width: 1000px;
+      margin-left: auto; 
+      margin-right: auto;
+    }
+  }
+
+
+
+.logo {
+    max-width: 300px; 
+    margin-top: 80px; 
+    margin-bottom: 80px;
+}
+
+h2 {
+    
+    font-size: 1.45rem; 
+    font-weight: 500;
+    line-height: 30px;
+    height: auto;
+    width: auto;
+    margin-left: 0.5rem;
+}
+
+h4 {
+    text-transform: uppercase; 
+    margin-top: 1em;
+    margin-left: 0.5rem;
+}
+
+.blog {
+    text-align: left; 
+    margin-top: 45px;
+    margin-left: 0.5rem;
+}
+
+.link {
+    /* height: 150px;  */
+    text-align: left; 
+    margin-top: 15px; 
+    padding-top: 1em;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+p {
+    margin-bottom: 20px;
+    margin-left: 0.5rem;
+}
+
+.contact {
+    margin-top: 4rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+.social {
+    margin-right: 2em;
+    margin-left: 0.5rem;
+    margin-bottom: 3rem;
+    
+}
+
+.social a {
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+
+
+a.weixin {
+    position: relative;
+    }
+     
+    .weixin img.qrcode {
+    position: absolute;
+    z-index: 99;
+    top: -135px;
+    right: -28px;
+    width: 7.5rem;
+    max-width: none;
+    height: 7.5rem;
+    transform: scale(0);
+    transform-origin: top right;
+    opacity: 0;
+    border: .3125rem solid #0085ba;
+    border-radius: .25rem;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+     
+    }
+     
+    .weixin:hover img.qrcode {
+    transform: scale(1);
+    opacity: 1;
+    }
+    
